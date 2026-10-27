@@ -8,4 +8,3 @@
 @media(max-width:1050px){.midterm-7224 .depth-jump{grid-template-columns:repeat(2,minmax(0,1fr))}.midterm-7224 .depth-start{grid-template-columns:1fr}}
 @media(max-width:1000px){.midterm-7224 .depth-side-note{display:none}.midterm-7224 .depth-module{scroll-margin-top:190px}}
 @media(max-width:700px){.midterm-7224 .depth-grid,.midterm-7224 .tree-branches,.midterm-7224 .depth-topology,.midterm-7224 .depth-compare-flow{grid-template-columns:1fr}.midterm-7224 .depth-start{padding:16px}.midterm-7224 .depth-jump{grid-template-columns:repeat(2,minmax(0,1fr))}.midterm-7224 .depth-module>summary{padding:14px}.midterm-7224 .depth-module-title strong{font-size:16px}.midterm-7224 .depth-module-body{padding:4px 13px 20px}.midterm-7224 .depth-pane{padding:13px}.midterm-7224 .depth-flow span{flex:1 0 42%}}
-

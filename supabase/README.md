@@ -21,4 +21,3 @@ The UI can ask only for `username` and `password`. Internally, the demo can map 
 - Add upload validation and a queued parser endpoint.
 - Parse PPT/PDF/TXT/audio on a server-side Edge Function or separate worker, then write structured cards and questions using the authenticated user's ID.
 - Add rate limits and bot verification to sign-up, login, upload, and AI parse endpoints.
-

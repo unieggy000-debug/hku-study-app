@@ -41,4 +41,3 @@
   const title = document.querySelector(".kicker");
   if (title) title.textContent = labels[course];
 })();
-

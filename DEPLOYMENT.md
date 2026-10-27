@@ -55,4 +55,3 @@ The interface can show only username and password. Internally, the demo can use 
 5. Connect the authentication and sync adapter.
 6. Push the static site to GitHub Pages through the included workflow.
 7. Test account isolation with two demo users before enabling uploads.
-

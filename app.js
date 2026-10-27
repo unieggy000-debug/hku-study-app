@@ -548,4 +548,3 @@ async function meaningOf(text) {
 renderHome();
 const requestedSet = runtimeParams.get("set");
 if (requestedSet && findSet(requestedSet)) renderQuiz(requestedSet);
-
