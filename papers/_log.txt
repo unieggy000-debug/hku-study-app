@@ -1,0 +1,130 @@
+2022-01 Question 1 (30 Marks) part 1 y 125-193
+2022-02 1.1 What are the differences between lists and sets in Python? (5 Marks) part 1 y 193-500
+2022-03 1.2 What will be the output of the following Python code? (5 Marks) part 1 y 500-614
+2022-04 1.3 What will be the output of the following Python code? (5 Marks) part 1 y 614-818
+2022-04 1.3 What will be the output of the following Python code? (5 Marks) part 2 y 36-72
+2022-05 1.4 What will be the output of the following Python code? (5 Marks) part 1 y 72-160
+2022-06 1.5 What will be the output of the following Python code? (5 Marks) part 1 y 160-290
+2022-07 1.6 What will be the output of the following Python code? (5 Marks) part 1 y 290-417
+2022-08 Question 2 (20 Marks) part 1 y 417-818
+2022-08 Question 2 (20 Marks) part 2 y 36-818
+2022-08 Question 2 (20 Marks) part 3 y 36-74
+2022-09 Question 3 (30 Marks) part 1 y 74-818
+2022-09 Question 3 (30 Marks) part 2 y 36-373
+2022-10 Question 4 (20 Marks) part 1 y 373-818
+2022-10 Question 4 (20 Marks) part 2 y 36-818
+2024-01 Part I: (50 marks) part 1 y 133-158
+2024-02 Question 1 (30 Marks) part 1 y 158-204
+2024-03 1. Which of the following is a type of program error? part 1 y 204-286
+2024-04 2. Is Python code compiled or interpreted? part 1 y 286-413
+2024-05 3. What is a cell in Jupyter Notebook? part 1 y 413-526
+2024-06 4. What is the difference between a Code cell and a Markdown cell in Jupyter Not part 1 y 526-638
+2024-07 5. Which file format does Jupyter Notebook use to store notebooks? part 1 y 638-697
+2024-08 6. How can you share a Jupyter Notebook with others? part 1 y 697-818
+2024-08 6. How can you share a Jupyter Notebook with others? part 2 y 36-140
+2024-09 7. Which of the following is not a core data type in Python programming? part 1 y 140-230
+2024-10 8. What does NumPy stand for in Python? part 1 y 230-321
+2024-11 9. What is the purpose of the NumPy library in Jupyter Notebook? part 1 y 321-448
+2024-12 10. What is the purpose of the panda's library in Jupyter Notebook? part 1 y 448-583
+2024-13 11. Traffic light system is an example of: part 1 y 583-688
+2024-14 12. A control system is stochastic if: part 1 y 688-818
+2024-14 12. A control system is stochastic if: part 2 y 36-266
+2024-15 13. In an expert system, the knowledge base component contains the information a part 1 y 266-356
+2024-16 14. The key difference between supervised and unsupervised machine learning is part 1 y 356-492
+2024-17 15. Which of the following is not a supervised machine learning algorithm? part 1 y 492-818
+2024-17 15. Which of the following is not a supervised machine learning algorithm? part 2 y 36-87
+2024-18 Question 2 (20 Marks) part 1 y 87-146
+2024-19 1. The interpreter translates the entire source code into machine code before ex part 1 y 146-219
+2024-20 2. The interpreter executes faster compared to the compiler. part 1 y 219-292
+2024-21 3. Logical errors are found when the program runs to completion without error bu part 1 y 292-335
+2024-22 4. When the order of the denominator polynomial is greater than the numerator po part 1 y 335-393
+2024-23 5. A control system is deterministic if the response to input is predictable and part 1 y 393-437
+2024-24 6. If all the poles of the system lie in the left half plane the system is said  part 1 y 437-495
+2024-25 7. Expert systems are only as good as the data and rules they are given. part 1 y 495-539
+2024-26 8. The main purpose of the Interference Engine in an expert system is to input d part 1 y 539-597
+2024-27 9. Support Vector Machine (SVM) and Random Forest algorithms are examples of sup part 1 y 597-641
+2024-28 10. Recommendations systems are a classic example of unsupervised machine learni part 1 y 641-818
+2024-28 10. Recommendations systems are a classic example of unsupervised machine learni part 2 y 36-87
+2024-29 Part II: (50 marks) part 1 y 87-113
+2024-30 Question 3 (30 marks): part 1 y 113-158
+2024-31 3.1 What are the differences between lists and sets in Python? (6 Marks) part 1 y 158-479
+2024-32 3.2 What will be the output of the following Python code? (4 marks) part 1 y 479-608
+2024-33 3.3 What will be the output of the following Python code? (4 marks) part 1 y 608-759
+2024-34 3.4 What will be the output of the following Python code? (4 marks) part 1 y 759-818
+2024-34 3.4 What will be the output of the following Python code? (4 marks) part 2 y 36-214
+2024-35 3.5 What will be the output of the following Python code? (4 marks) part 1 y 214-326
+2024-36 3.6 What will be the output of the following Python code? (4 marks) part 1 y 326-460
+2024-37 3.7 What will be the output of the following Python code? (4 marks) part 1 y 460-818
+2024-37 3.7 What will be the output of the following Python code? (4 marks) part 2 y 36-87
+2024-38 Question 4 (10 marks) part 1 y 87-577
+2024-39 Question-5 (10 marks) part 1 y 577-818
+2024-39 Question-5 (10 marks) part 2 y 36-818
+2025-01 Part I: (80 marks) part 1 y 133-158
+2025-02 Question 1 (60 Marks) part 1 y 158-206
+2025-03 1. Which programming language was originally developed for UNIX? part 1 y 206-256
+2025-04 2. Which of the following is a basic data type in Python? part 1 y 256-305
+2025-05 3. Which command is used to run a cell in Jupyter Notebook? part 1 y 305-354
+2025-06 4. Which statement is used for error handling in Python? part 1 y 354-404
+2025-07 5. What is the output of 15 % 2 in Python? part 1 y 404-453
+2025-08 6. Which of the following is a mutable data type in Python? part 1 y 453-503
+2025-09 7. In Python, what is the result of 4**2? part 1 y 503-552
+2025-10 8. How do you denote a comment in Python? part 1 y 552-601
+2025-11 9. Which statement is used to exit a loop prematurely in Python? part 1 y 601-651
+2025-12 10. What does the iloc attribute in Pandas do? part 1 y 651-714
+2025-13 11. What is the output of list(range(5))? part 1 y 714-818
+2025-13 11. What is the output of list(range(5))? part 2 y 36-87
+2025-14 12. What is the output of np.linspace(0, 1, 5)? part 1 y 87-139
+2025-15 13. Which function is used to find the number of elements in an array? part 1 y 139-202
+2025-16 14. In Matplotlib, which function is used to display a plot? part 1 y 202-260
+2025-17 15. Which method is used to get the first few rows of a DataFrame? part 1 y 260-310
+2025-18 16. In which scenario would you prefer using a list over a tuple in Python? part 1 y 310-414
+2025-19 17. A control system is stochastic if: part 1 y 414-626
+2025-20 18. What does the transfer function represent in a control system? part 1 y 626-701
+2025-21 19. What does the term "BIBO" stand for in control systems? part 1 y 701-818
+2025-21 19. What does the term "BIBO" stand for in control systems? part 2 y 36-87
+2025-22 20. Which of the following best describes a deterministic control system? part 1 y 87-155
+2025-23 21. What is the main advantage of depth-first search (DFS)? part 1 y 155-215
+2025-24 22. Which algorithm combines the advantages of DFS and BFS? part 1 y 215-268
+2025-25 23. Which of the following is NOT a reason for developing Expert Systems? part 1 y 268-336
+2025-26 24. What does the knowledge base of an Expert System contain? part 1 y 336-403
+2025-27 25. Which of the following describes forward chaining? part 1 y 403-471
+2025-28 26. Why was PyKE chosen for Expert Systems? part 1 y 471-538
+2025-29 27. The key difference between supervised and unsupervised machine learning is part 1 y 538-636
+2025-30 28. Which of the following is not a supervised machine learning algorithm? part 1 y 636-688
+2025-31 29. What is the output of Logistic Regression? part 1 y 688-818
+2025-31 29. What is the output of Logistic Regression? part 2 y 36-87
+2025-32 30. What does the F1 score measure in a classification model? part 1 y 87-163
+2025-33 Question 2 (20 Marks) part 1 y 163-207
+2025-34 1. Linkers do not handle library files; they only work with object files generat part 1 y 207-265
+2025-35 2. The interpreter executes faster compared to the compiler. part 1 y 265-338
+2025-36 3. A Python set can contain duplicate elements. part 1 y 338-396
+2025-37 4. Logical errors are found when the program runs to completion without error bu part 1 y 396-440
+2025-38 5. You can concatenate multiple strings at once by using the + operator in a sin part 1 y 440-484
+2025-39 6. A loop can be nested inside another loop in programming. part 1 y 484-527
+2025-40 7. In a control system, a controller is responsible for comparing the desired ou part 1 y 527-571
+2025-41 8. A control system is deterministic if the response to input is predictable and part 1 y 571-614
+2025-42 9. If all the poles of the system lie in the left half plane, the system is said part 1 y 614-673
+2025-43 10. Breadth-first search (BFS) explores all nodes at the present depth before mo part 1 y 673-716
+2025-44 11. The complexity of a search algorithm is not affected by the branching factor part 1 y 716-818
+2025-44 11. The complexity of a search algorithm is not affected by the branching factor part 2 y 36-87
+2025-45 12. Bidirectional search runs two simultaneous searches, one from the start stat part 1 y 87-131
+2025-46 13. Heuristic functions are used in AI to guarantee the optimality of a search a part 1 y 131-189
+2025-47 14. An expert system is a computer program that simulates the decision-making ab part 1 y 189-232
+2025-48 15. Expert systems are only as good as the data and rules they are given. part 1 y 232-276
+2025-49 16. The inference engine is responsible for reasoning and concluding the knowled part 1 y 276-320
+2025-50 17. Cross-validation is a technique used to prevent underfitting in machine lear part 1 y 320-378
+2025-51 18. Supervised learning algorithms can be used for both classification and regre part 1 y 378-422
+2025-52 19. Support Vector Machine (SVM) and Random Forest algorithms are examples of un part 1 y 422-480
+2025-53 20. Recommendation systems are a classic example of unsupervised machine learnin part 1 y 480-546
+2025-54 Part II: (20 marks) part 1 y 546-571
+2025-55 Question 3 (10 marks): part 1 y 571-617
+2025-56 3.1 What will be the output of the following Python code? (2 marks) part 1 y 617-818
+2025-56 3.1 What will be the output of the following Python code? (2 marks) part 2 y 36-87
+2025-57 3.2 What will be the output of the following Python code? (2 marks) part 1 y 87-267
+2025-58 3.3 What will be the output of the following Python code? (2 marks) part 1 y 267-403
+2025-59 3.4 What will be the output of the following Python code? (2 marks) part 1 y 403-559
+2025-60 3.5 What will be the output of the following Python code? (2 marks) part 1 y 559-818
+2025-60 3.5 What will be the output of the following Python code? (2 marks) part 2 y 36-87
+2025-61 Question 4 (4 marks) part 1 y 87-526
+2025-62 Question-5 (6 marks) part 1 y 526-818
+2025-62 Question-5 (6 marks) part 2 y 36-818

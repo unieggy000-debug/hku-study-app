@@ -1,0 +1,23 @@
+# Local development and secrets
+.env
+.env.*
+!.env.example
+supabase-config.js
+*secrets*
+*secret*
+*api-key*
+*apikey*
+*.pem
+*.key
+supabase/.temp/
+supabase/.branches/
+
+# Local editor / OS files
+.vscode/
+.idea/
+Thumbs.db
+*.log
+
+# Never publish private source material by accident
+private-materials/
+uploads/
