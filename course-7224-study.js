@@ -48,10 +48,17 @@ function renderAIEvolutionTimeline() {
 function render7224Markdown(source) {
   const lines = source.replace(/\r/g,"").split("\n");
   let html = "", paragraph = [], list = [], table = [], open = false;
+  const renderTable = (rows) => {
+    const cells = rows.map((row) => row.replace(/^\s*\|\s?|\s*\|\s*$/g, "").split("|").map((cell) => cell.trim()));
+    if (!cells.length) return "";
+    const header = cells[0];
+    const body = cells.slice(1).filter((row) => !row.every((cell) => /^:?-{3,}:?$/.test(cell)));
+    return `<div class="material-table-wrap"><table class="material-table"><thead><tr>${header.map((cell) => `<th scope="col">${mdInline(cell)}</th>`).join("")}</tr></thead><tbody>${body.map((row) => `<tr>${header.map((_, index) => `<td>${mdInline(row[index] || "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  };
   const flush = () => {
     if (paragraph.length) { html += `<p>${mdInline(paragraph.join(" "))}</p>`; paragraph = []; }
     if (list.length) { html += `<ul>${list.map((x) => `<li>${mdInline(x)}</li>`).join("")}</ul>`; list = []; }
-    if (table.length) { html += `<pre class="material-table">${mdEscape(table.join("\n"))}</pre>`; table = []; }
+    if (table.length) { html += renderTable(table); table = []; }
   };
   const close = () => { flush(); if (open) { html += "</div></details>"; open = false; } };
   for (const line of lines) {
