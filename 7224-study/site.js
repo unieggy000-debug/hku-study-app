@@ -131,9 +131,16 @@ function renderMarkdown(src) {
   const lines = src.replace(/\r/g,"").split("\n");
   let out = "", paragraph = [], table = [], open = false, code = false;
   const fence = String.fromCharCode(96,96,96);
+  const renderTable = (rows) => {
+    const cells = rows.map(row => row.replace(/^\s*\|\s?|\s*\|\s*$/g, "").split("|").map(cell => cell.trim()));
+    if (!cells.length) return "";
+    const header = cells[0];
+    const body = cells.slice(1).filter(row => !row.every(cell => /^:?-{3,}:?$/.test(cell)));
+    return '<div class="md-table-wrap"><table class="md-table"><thead><tr>' + header.map(cell => '<th scope="col">' + escapeInline(cell) + '</th>').join("") + '</tr></thead><tbody>' + body.map(row => '<tr>' + header.map((_, i) => '<td>' + escapeInline(row[i] || "") + '</td>').join("") + '</tr>').join("") + '</tbody></table></div>';
+  };
   const flush = () => {
     if (paragraph.length) { out += "<p>" + escapeInline(paragraph.join(" ")) + "</p>"; paragraph = []; }
-    if (table.length) { out += '<div class="md-table">' + table.map(escapeInline).join("\n") + "</div>"; table = []; }
+    if (table.length) { out += renderTable(table); table = []; }
   };
   const close = () => { flush(); if (open) { out += "</div></details>"; open = false; } };
   for (const line of lines) {
