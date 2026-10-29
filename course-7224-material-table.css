@@ -1,6 +1,14 @@
-.outline-7224 .material-table-wrap{width:100%;overflow-x:auto;margin:14px 0;border:1px solid #d7e2d8;border-radius:12px;background:#fff;box-shadow:0 3px 12px #244a3020}
-.outline-7224 .material-table{width:100%;min-width:560px;border-collapse:collapse;font-size:13px;line-height:1.6}
-.outline-7224 .material-table th{background:#edf5ee;color:#2c5b3f;font-weight:850;white-space:nowrap}
-.outline-7224 .material-table th,.outline-7224 .material-table td{padding:11px 13px;border-bottom:1px solid #dbe6dc;text-align:left;vertical-align:top}
+.outline-7224 .material-table-wrap{width:100%;overflow-x:auto;margin:18px 0 24px;border:1px solid #ccdace;border-radius:15px;background:#fff;box-shadow:0 8px 24px #244a3017;scrollbar-color:#9eafa2 #edf3ee}
+.outline-7224 .material-table{width:100%;min-width:620px;border-collapse:separate;border-spacing:0;table-layout:auto;color:#304c39;font-size:12px;line-height:1.65}
+.outline-7224 .material-table th{padding:12px 14px;border-right:1px solid #d5e1d7;border-bottom:2px solid #b9cdbd;background:#e9f2eb;color:#214d34;font-size:11px;font-weight:900;letter-spacing:.02em;white-space:normal}
+.outline-7224 .material-table td{padding:13px 14px;border-right:1px solid #e0e8e1;border-bottom:1px solid #dce6de;text-align:left;vertical-align:top;overflow-wrap:anywhere;word-break:normal}
+.outline-7224 .material-table th:last-child,.outline-7224 .material-table td:last-child{border-right:0}
 .outline-7224 .material-table tbody tr:nth-child(even){background:#f7faf7}
+.outline-7224 .material-table tbody tr:hover{background:#f0f6f1}
 .outline-7224 .material-table tbody tr:last-child td{border-bottom:0}
+.outline-7224 .material-table td:first-child{color:#234f36;font-weight:900;white-space:nowrap}
+.outline-7224 .material-table code{padding:2px 5px;border-radius:5px;background:#f2eee3;color:#744d24;font-size:.94em;white-space:normal}
+.outline-7224 .material-table-comparison{min-width:900px;table-layout:fixed}
+.outline-7224 .material-table-comparison .function-col{width:9%}.outline-7224 .material-table-comparison .usage-col{width:10%}.outline-7224 .material-table-comparison .formula-col{width:27%}.outline-7224 .material-table-comparison .pros-col{width:27%}.outline-7224 .material-table-comparison .cons-col{width:27%}
+.outline-7224 .material-table-comparison td:nth-child(3){color:#3f5547}
+@media(max-width:760px){.outline-7224 .material-table{min-width:700px}.outline-7224 .material-table-comparison{min-width:900px}.outline-7224 .material-table th,.outline-7224 .material-table td{padding:10px 11px}}
