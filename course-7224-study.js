@@ -53,13 +53,18 @@ function render7224Markdown(source) {
     if (!cells.length) return "";
     const header = cells[0];
     const body = cells.slice(1).filter((row) => !row.every((cell) => /^:?-{3,}:?$/.test(cell)));
-    return `<div class="material-table-wrap"><table class="material-table"><thead><tr>${header.map((cell) => `<th scope="col">${mdInline(cell)}</th>`).join("")}</tr></thead><tbody>${body.map((row) => `<tr>${header.map((_, index) => `<td>${mdInline(row[index] || "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    const comparison = header.includes("函数") && header.includes("公式与范围");
+    const colgroup = comparison ? '<colgroup><col class="function-col"><col class="usage-col"><col class="formula-col"><col class="pros-col"><col class="cons-col"></colgroup>' : "";
+    return `<div class="material-table-wrap${comparison ? " comparison-table-wrap" : ""}" role="region" aria-label="${mdAttr(header.join("、"))}" tabindex="0"><table class="material-table${comparison ? " material-table-comparison" : ""}">${colgroup}<thead><tr>${header.map((cell) => `<th scope="col">${mdInline(cell)}</th>`).join("")}</tr></thead><tbody>${body.map((row) => `<tr>${header.map((_, index) => `<td>${mdInline(row[index] || "")}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
   };
-  const flush = () => {
+  const flushText = () => {
     if (paragraph.length) { html += `<p>${mdInline(paragraph.join(" "))}</p>`; paragraph = []; }
     if (list.length) { html += `<ul>${list.map((x) => `<li>${mdInline(x)}</li>`).join("")}</ul>`; list = []; }
+  };
+  const flushTable = () => {
     if (table.length) { html += renderTable(table); table = []; }
   };
+  const flush = () => { flushText(); flushTable(); };
   const close = () => { flush(); if (open) { html += "</div></details>"; open = false; } };
   for (const line of lines) {
     const h2 = line.match(/^##\s+(.+)/), h3 = line.match(/^###\s+(.+)/), h1 = line.match(/^#\s+(.+)/);
@@ -68,7 +73,7 @@ function render7224Markdown(source) {
     if (h3) { flush(); html += `<h3>${mdInline(h3[1])}</h3>`; continue; }
     if (h1) { close(); html += `<h2>${mdInline(h1[1])}</h2>`; continue; }
     if (/^\s*---\s*$/.test(line)) { flush(); html += "<hr>"; continue; }
-    if (line.trim().startsWith("|")) { flush(); table.push(line); continue; }
+    if (line.trim().startsWith("|")) { flushText(); table.push(line); continue; }
     if (/^\s*[-*]\s+/.test(line)) { flush(); list.push(line.replace(/^\s*[-*]\s+/,"")); continue; }
     if (/^!\[[^\]]*\]\([^)]+\)\s*$/.test(line)) { flush(); html += mdInline(line); continue; }
     if (!line.trim()) { flush(); continue; }
